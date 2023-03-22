@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +9,102 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+/* NAVIGATION ==================================================================== */
+
+.container {
     background-color: #1f2937;
-    padding: 1em 13em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 12rem;
 }
 
+#logo {
+    font-size: 24px;
+    color: #f9fAf8;
+}
+
+ul,
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    gap: 18px;
+    font-size: 18px;
+}
+
+a:hover {
+    color:lightskyblue;
+}
+
+/* WELCOME ==================================================================== */
+
+.welcome {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8em 12rem;
+    gap: 2em;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9fAf8;
+}
+
+.textbellow {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+    margin-top: 10;
+}
+
+button {
+    width: 130px;
+    padding: 8px 1rem;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color:#ffffff;
+    font-size: 18px;
+}
+
+.image {
+    width: 650px;
+    background: linear-gradient(307deg, rgba(115,9,121,1) 0%, rgba(96,43,143,1) 38%, rgba(0,212,255,1) 100%);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:active {
+    background: rgb(0, 47, 123);
+}
+
+/* CARD SECTION ==================================================================== */
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.card-container {
+    padding: 18px 5rem;
+
+    
+}
+
+
+.card {
+    display: flex;
+
+
+}
